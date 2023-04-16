@@ -1,0 +1,24 @@
+{% extends "base.html" %} {% block title %}Gramarun - Login{% endblock %} {% block content %}
+<script src="https://www.google.com/recaptcha/api.js"></script>
+<script>
+    function onSubmit(token) {
+        document.getElementById("login-form").submit();
+    }
+</script>
+<form id="login-form" method="POST">
+    <div class="form-group" id=formLogin>
+        <h3 class="titleConn">Login</h3>
+        <label for="email">Email Address</label>
+        <input type="text" id="email" name="email" class="form-control" placeholder="Enter Email">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" class="form-control" placeholder="Enter Password">
+        <br>
+        <a class="btn btn-primary-outline" href='/sign-up'>No Account ?</a>
+        <a class="btn btn-primary-outline" href='/passReset'>Forgot password ? </a>
+        <div class="connButton">
+            <button class="g-recaptcha btn btn-primary" data-sitekey="{{ site_key }}" data-callback='onSubmit' data-action='submit'>Submit</button>
+        </div>
+    </div>
+</form>
+
+{% endblock %}

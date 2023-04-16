@@ -1,0 +1,103 @@
+{% extends "base.html" %} {% block title %}Gramarun - Tutorial{% endblock %} {% block content%}
+
+<section class="slider">
+    <div>
+        <div class="slider-item">
+            <div class="left-image">
+                <img src="staticFiles/images/character-1.png" alt="*main character* expliquant les contrôles">
+            </div>
+            <div class="right-content">
+                <h2>Hello there!</h2>
+                <p>Welcome to our platformer game <b> Gramarun </b>! <br> I'm <b> NAME </b>, the main character, and I'll be guiding you through the game.</p>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="slider-item">
+            <div class="left-image">
+                <img src="staticFiles/images/character-2.png" alt="*main character* expliquant les contrôles">
+            </div>
+            <div class="right-content">
+                <h2>Objective of the game</h2>
+                <p>The objective of the game is to complete the level and answer a series of 10 multiple-choice questions in English at the end. Your score will depend on the number of correct answers you give. </p>
+                <div class="bottom-image">
+                    <img src="staticFiles/images/question.png" alt="Capture d'écran du jeu">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="slider-item">
+            <div class="left-image">
+                <img src="staticFiles/images/character-3.png" alt="*main character* montrant la porte à la fin de chaque niveau">
+            </div>
+            <div class="right-content">
+                <h2>The door</h2>
+                <p>The door at the end of each level you will need to reach to answer the questions in English and move on to the next level.</p>
+                <div class="bottom-image">
+                    <img src="staticFiles/images/door.png" alt="Capture d'écran du jeu">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="slider-item">
+            <div class="left-image">
+                <img src="staticFiles/images/character-4.png" alt="*main character* montrant comment faire une attaque rapide">
+            </div>
+            <div class="right-content">
+                <h2>Enemy ghost</h2>
+                <p>But be careful! There's an enemy ghost that will be following you throughout the game. If it touches you, you'll lose one life. You start with three lives, and if you fall into a pit, you'll lose all three lives at once. Once you're out
+                    of lives, it's game over.</p>
+                <div class="bottom-image">
+                    <img src="staticFiles/images/ghost.png" alt="Capture d'écran du jeu">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="slider-item">
+            <div class="left-image">
+                <img src="staticFiles/images/character-2.png" alt="*main character* montrant comment éviter les obstacles">
+            </div>
+            <div class="right-content">
+                <h2>Avoid obstacles</h2>
+                <p>To move around in the game, you'll need to use the arrow keys on your keyboard. Press the left and right arrow keys to move your character in those directions. To jump, simply press the space bar. And for a quick dash in any direction,
+                    press the space bar twice quickly, followed by the direction you want to dash in. Keep in mind that dashing can help you move faster and avoid obstacles, but it can also be tricky to control, so use it wisely.</p>
+                <div class="bottom-image">
+                    <img src="staticFiles/images/back.png" alt="Capture d'écran du jeu">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="slider-item">
+            <div class="left-image">
+                <img src="staticFiles/images/character-1.png" alt="*main character* montrant comment faire une attaque rapide">
+            </div>
+            <div class="right-content">
+                <h2>That's it!</h2>
+                <p> Remember to watch out for the ghost, keep an eye on your lives, and do your best to answer the English questions correctly.
+                    <br> Have fun! </p>
+            </div>
+        </div>
+    </div>
+</section>
+</main>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script>
+    $('.slider').slick({
+        arrows: false,
+        dots: true,
+        infinite: false,
+        speed: 300,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        adaptiveHeight: true
+    });
+</script>
+
+{% endblock %}

@@ -1,0 +1,43 @@
+{% extends "base.html" %} {% block title %}Gramarun - Home{% endblock %} {% block content%}
+
+
+<div class="flex-container">
+    <div class="intro">
+        <h1>Presentation</h1> <br>
+        <p><br><br>This website was created following the third year SAE of BUT Computer Science.<br>This SAE consisted in creating a "Serious Game" for different subjects.<br>The subject selected for our SAE is English, this game will thus allow you to revise your courses for your next exams but also to improve your general English level.<br> A leaderboard is also available to allow you to measure yourself against others.
+        </p>
+    </div>
+    <div class="carousel">
+        <div class="carousel-container">
+
+            <div class="mySlides fade">
+                <img src="staticFiles/images/carousel1.png" alt="L'enemie s'apprète à nous attaquer" style="width:150%">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="staticFiles/images/carousel2.png" alt="Joueur sur une plateforme" style="width:150%">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="staticFiles/images/carousel3.png" alt="Pannel de question" style="width:150%">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="staticFiles/images/carousel4.png" alt="Poursuite du joueur" style="width:150%">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="staticFiles/images/carousel5.png" alt="écran titre du jeu" style="width:150%">
+            </div>
+
+        </div>
+        <br>
+        <div class="tousPoints" style="text-align:center">
+            {% for i in range(5) %}
+            <span class="point"></span> {% endfor %}
+        </div>
+    </div>
+</div>
+<script src="staticFiles/script/carousel.js"></script>
+
+{% endblock %}

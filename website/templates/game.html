@@ -1,0 +1,23 @@
+{% extends "base.html" %} {% block title %}Game{% endblock %} {% block content%}
+
+<script src="staticFiles/game/lib/phaser.min.js"></script>
+<script src="staticFiles/game/src/components/UserComponent.js"></script>
+<script src="staticFiles/game/src/components/PushOnClick.js"></script>
+<script src="staticFiles/game/src/components/Abeille.js"></script>
+<script src="staticFiles/game/src/components/PreloadText.js"></script>
+<script src="staticFiles/game/src/scenes/Preload.js"></script>
+<script src="staticFiles/game/src/components/ChoixPerso.js"></script>
+<script src="staticFiles/game/src/components/ChoixMode.js"></script>
+<script src="staticFiles/game/src/components/Timer.js"></script>
+<script src="staticFiles/game/src/scenes/Touches.js"></script>
+<script src="staticFiles/game/src/scenes/PointDeVie.js"></script>
+<script src="staticFiles/game/src/scenes/Menu.js"></script>
+<script src="staticFiles/game/src/scenes/Level.js"></script>
+<script src="staticFiles/game/src/scenes/Question.js"></script>
+<script src="staticFiles/game/src/scenes/Option.js"></script>
+<script src="staticFiles/game/src/scenes/GameOver.js"></script>
+<script src="staticFiles/game/src/main.js"></script>
+<div id="tableauDonnees" data-question='{{question}}' data-answer1='{{answer1}}' data-answer2='{{answer2}}' data-answer3='{{answer3}}' data-answer4='{{answer4}}'></div>
+<div id="currentUser" data-currentUser='{{name}}'></div>
+<div id="currentUserScore" data-currentScore='{{user.score}}'></div>
+{% endblock %}

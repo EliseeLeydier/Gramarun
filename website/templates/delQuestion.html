@@ -1,0 +1,33 @@
+{% extends "base.html" %} {% block title %}Gramarun - Delete Question{% endblock %} {% block content%}
+<div class="deleteTable">
+    <table>
+        <tr>
+            <th>Id</th>
+            <th>Question</th>
+            <th>Type</th>
+            <th>Answer 1</th>
+            <th>Answer 2</th>
+            <th>Answer 3</th>
+            <th>Answer 4</th>
+            <th>Delete Row</th>
+        </tr>
+        {% for donnees in donnees %}
+        <tr>
+            <td>{{donnees.questionId}}</td>
+            <td>{{donnees.question}}</td>
+            <td>{{donnees.type}}</td>
+            <td>{{donnees.answer1}}</td>
+            <td>{{donnees.answer2}}</td>
+            <td>{{donnees.answer3}}</td>
+            <td>{{donnees.answer4}}</td>
+            <td>
+                <form action="/delete_row" method="POST">
+                    <input type="hidden" name="idLigne" value="{{donnees.questionId}}">
+                    <button class="btn btn-outline-warning" type="submit">Supprimer</button>
+                </form>
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+</div>
+{% endblock %}
