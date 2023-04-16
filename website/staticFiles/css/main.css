@@ -1,0 +1,419 @@
+    body {
+        background-image: url("/staticFiles/images/cloud.png");
+        background-repeat: repeat;
+        background-attachment: fixed;
+        margin: 0px;
+        padding: 0px;
+        height: 100vh;
+    }
+    /* Filtres daltoniens */
+    
+    body.protanopia {
+        filter: grayscale(100%) contrast(75%) sepia(100%) hue-rotate(-20deg);
+    }
+    
+    body.deuteranopia {
+        filter: grayscale(100%) contrast(75%) sepia(100%) hue-rotate(90deg);
+    }
+    
+    body.tritanopia {
+        filter: grayscale(100%) contrast(75%) sepia(100%) hue-rotate(200deg);
+    }
+    
+    footer {
+        position: fixed;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.2);
+        color: white;
+        width: 100%;
+        text-align: center;
+    }
+    
+    footer>button {
+        background-color: transparent;
+        border-color: transparent;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    footer>button:hover {
+        color: rgb(187, 187, 185);
+    }
+    /* Game */
+    
+    /*canvas {
+        visibility: hidden;
+    }
+    
+    #playButton {
+        position: absolute;
+        top: 50%;
+        font-size: x-large;
+        left: 50%;
+        border: 1px solid rgb(0, 0, 0);
+        padding: 0.5% 1% 0.5% 1%;
+        transform: translate(-50%, -50%);
+    }*/
+    
+    /* Pop-Up Footer*/
+    
+    #popupMention,
+    #popupPolitique {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgb(0, 140, 175);
+        border: 1px solid black;
+        padding: 20px;
+        color: white;
+        max-width: 80%;
+        max-height: 80%;
+        min-width: 300px;
+        border-radius: 10px;
+        overflow: scroll;
+        overflow: -moz-scrollbars-none;
+        -ms-overflow-style: none;
+    }
+    
+    #popupMention::-webkit-scrollbar,
+    #popupPolitique::-webkit-scrollbar {
+        display: none;
+    }
+    
+    #popupMention>p,
+    #popupPolitique>p {
+        font-size: 2vh;
+        word-wrap: break-word;
+    }
+    
+    #popupMention>button,
+    #popupPolitique>button {
+        position: absolute;
+        margin-right: 7%;
+        background-color: rgb(64, 64, 64);
+        right: 0;
+        left: auto;
+        border-color: white;
+        border-style: solid;
+        border-radius: 10%;
+        border-width: 1px;
+        width: 30px;
+        height: 30px;
+        color: rgb(187, 187, 187);
+    }
+    
+    #popupMention>button:hover,
+    #popupPolitique>button:hover {
+        transition: 0.5s;
+        background-color: rgb(64, 64, 64, .5);
+        color: red;
+    }
+    /* Formulaire login et register */
+    
+    #formLogin {
+        background-color: rgba(0, 0, 0, .5);
+        padding: 3%;
+        border-radius: 20px;
+        width: 60%;
+        margin: 0 auto;
+        margin-top: 10%;
+    }
+    
+    #formLogin>label {
+        color: beige;
+    }
+    
+    #formLogin>h3 {
+        color: beige;
+    }
+    
+    nav {
+        background-color: rgba(0, 0, 0, .5);
+    }
+    
+    .btn-primary-outline {
+        background-color: transparent;
+        color: white;
+    }
+    
+    .btn-primary-outline:hover {
+        color: rgb(187, 187, 187)
+    }
+    /* Formulaire Add */
+    
+    #formAdd {
+        background-color: rgba(0, 0, 0, .5);
+        padding: 3%;
+        border-radius: 20px;
+        width: 60%;
+        margin: 0 auto;
+        margin-top: 10%;
+    }
+    
+    #formAdd>.offset-1 {
+        text-align: center;
+    }
+    
+    .titleConn,
+    .loginButton {
+        text-align: center;
+    }
+    
+    #formAdd>label {
+        color: beige;
+    }
+    
+    #formAdd>h3 {
+        color: beige;
+    }
+    
+    .col-10 {
+        padding: 1%;
+    }
+    
+    @media screen and (max-width: 991px) {
+        .col-10,
+        .col-2,
+        input[type=submit] {
+            width: 100%;
+            margin-top: 0;
+        }
+        #formAdd {
+            margin-bottom: 10%;
+        }
+    }
+    /* Leaderboard */
+    
+    .myTable {
+        overflow: scroll;
+    }
+    
+    .myTable::-webkit-scrollbar {
+        display: none;
+        overflow: -moz-scrollbars-none;
+        -ms-overflow-style: none;
+    }
+    
+    table {
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+        border-radius: 5px;
+        font-size: 12px;
+        max-width: 100%;
+        font-weight: normal;
+        white-space: nowrap;
+        margin-top: 3%;
+        border-collapse: collapse;
+        overflow: scroll;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        background: rgba(0, 140, 175, 0.9);
+    }
+    
+    .deleteTable {
+        overflow: scroll;
+    }
+    
+    .deleteTable::-webkit-scrollbar {
+        display: none;
+        overflow: -moz-scrollbars-none;
+        -ms-overflow-style: none;
+    }
+    
+    .scoreCol {
+        width: 20%;
+    }
+    
+    th>a {
+        pointer-events: none;
+        text-decoration: none;
+        font-size: x-large;
+        color: white;
+    }
+    
+    th {
+        border-bottom: 1px solid #364043;
+        color: #E2B842;
+        font-size: 0.85em;
+        font-weight: 600;
+        padding: 0.5em 1em;
+        text-align: left;
+        background: rgb(0, 79, 99);
+        border-radius: 0.25em;
+        margin: 1em;
+    }
+    
+    td {
+        color: #fff;
+        font-weight: 500;
+        font-size: large;
+        padding: 0.65em 1em;
+    }
+    
+    .disabled td {
+        color: #4F5F64;
+    }
+    
+    tbody tr {
+        transition: background 0.25s ease;
+    }
+    
+    tbody tr:hover {
+        background: rgb(0, 79, 99);
+    }
+    /* Page d'accueil */
+    
+    .flex-container {
+        margin-top: 3%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+        gap: 2%;
+    }
+    
+    .intro {
+        background-color: rgba(0, 0, 0, .5);
+        order: 0;
+        padding: 3%;
+        border-radius: 20px;
+        width: 60%;
+        margin: 0 auto;
+        margin-top: 8%;
+    }
+    
+    .intro>h1 {
+        color: wheat;
+        text-align: center;
+    }
+    
+    .intro>p {
+        color: white;
+        font-size: x-large;
+        text-align: center;
+    }
+    
+    @media screen and (max-width: 756px) {
+        .intro>p {
+            font-size: medium;
+        }
+    }
+    /* Carousel */
+    
+    .carousel {
+        margin-top: 10%;
+        order: 1;
+        margin-right: 20%;
+    }
+    
+    .mySlides {
+        display: none;
+    }
+    
+    .tousPoints {
+        margin-left: 50%;
+    }
+    
+    .point {
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+    
+    .activeDot {
+        background-color: #717171;
+    }
+    
+    .fade {
+        animation-name: fade;
+        animation-duration: 3s;
+    }
+    
+    @keyframes fade {
+        from {
+            opacity: .4
+        }
+        to {
+            opacity: 1
+        }
+    }
+    
+    @media screen and (max-width: 991px) {
+        .flex-container {
+            flex-direction: column;
+        }
+        .mySlides {
+            max-width: fit-content;
+            margin-left: 0;
+            margin-right: 15%;
+        }
+    }
+    
+    .slick-slide:focus {
+        outline: none;
+    }
+    
+    .slider {
+        background-color: smokewhite;
+        margin: 100px 400px;
+    }
+    
+    .slider-item {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .left-image {
+        flex: 0 0 128px;
+        margin-right: 10%;
+    }
+    
+    .left-image img {
+        max-width: 100%;
+        margin-left: 10px;
+        height: auto;
+        display: block;
+        border-radius: 10px;
+    }
+    
+    .right-content {
+        flex: 1 1 60%;
+        padding-bottom: 20px;
+    }
+    
+    .right-content h2 {
+        font-size: 24px;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+    
+    .right-content p {
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    
+    .bottom-image img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+    
+    .slick-dots li button:before {
+        font-size: 12px;
+        line-height: 1;
+        color: #333;
+        opacity: 1;
+    }
+    
+    .slick-dots li.slick-active button:before {
+        color: rgb(247 148 155);
+    }
