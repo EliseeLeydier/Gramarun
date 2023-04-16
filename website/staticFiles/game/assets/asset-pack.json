@@ -1,0 +1,405 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "staticFiles/game/assets/1vies.png",
+                "type": "image",
+                "key": "1vies"
+            },
+            {
+                "url": "staticFiles/game/assets/2vies.png",
+                "type": "image",
+                "key": "2vies"
+            },
+            {
+                "url": "staticFiles/game/assets/3vies.png",
+                "type": "image",
+                "key": "3vies"
+            },
+            {
+                "url": "staticFiles/game/assets/animations-ennemy.json",
+                "type": "animation",
+                "key": "animations-ennemy"
+            },
+            {
+                "url": "staticFiles/game/assets/animations-abeilleJaune.json",
+                "type": "animation",
+                "key": "animations-abeilleJaune"
+            },
+            {
+                "url": "staticFiles/game/assets/animations-abeilleBleue.json",
+                "type": "animation",
+                "key": "animations-abeilleBleue"
+            },
+            {
+                "url": "staticFiles/game/assets/animations-limace.json",
+                "type": "animation",
+                "key": "animations-limace"
+            },
+            {
+                "url": "staticFiles/game/assets/animations-perso.json",
+                "type": "animation",
+                "key": "animations-perso"
+            },
+            {
+                "url": "staticFiles/game/assets/menu/background.png",
+                "type": "image",
+                "key": "background"
+            },
+            {
+                "url": "staticFiles/game/assets/menu/backgroundNormalMode.png",
+                "type": "image",
+                "key": "backgroundNormalMode"
+            },
+            {
+                "url": "staticFiles/game/assets/perso/dash_sprite_f.png",
+                "frameConfig": {
+                    "frameWidth": 128,
+                    "frameHeight": 128,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "dashF"
+            },
+            {
+                "url": "staticFiles/game/assets/perso/dash_sprite_g.png",
+                "frameConfig": {
+                    "frameWidth": 128,
+                    "frameHeight": 128,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "dashG"
+            },
+            {
+                "url": "staticFiles/game/assets/menu/engrenage.png",
+                "type": "image",
+                "key": "engrenage"
+            },
+            {
+                "url": "staticFiles/game/assets/perso/ennemy.png",
+                "frameConfig": {
+                    "frameWidth": 128,
+                    "frameHeight": 128,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "ennemyFly"
+            },
+            {
+                "url": "staticFiles/game/assets/map/jt.png",
+                "frameConfig": {
+                    "frameWidth": 48,
+                    "frameHeight": 48,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "abeille"
+            },
+            {
+                "url": "staticFiles/game/assets/perso/fall_sprite_f.png",
+                "frameConfig": {
+                    "frameWidth": 128,
+                    "frameHeight": 128,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "fallF"
+            },
+            {
+                "url": "staticFiles/game/assets/perso/fall_sprite_g.png",
+                "frameConfig": {
+                    "frameWidth": 128,
+                    "frameHeight": 128,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "fallG"
+            },
+            {
+                "url": "staticFiles/game/assets/question/feuilleQuestion.png",
+                "type": "image",
+                "key": "feuille"
+            },
+            {
+                "url": "staticFiles/game/assets/menu/qcm.png",
+                "type": "image",
+                "key": "qcmMode"
+            },
+            {
+                "url": "staticFiles/game/assets/menu/normal.png",
+                "type": "image",
+                "key": "normalMode"
+            },
+            {
+                "url": "staticFiles/game/assets/menu/option/volumeOn.png",
+                "type": "image",
+                "key": "volumeOn"
+            },
+            {
+                "url": "staticFiles/game/assets/menu/option/volumeOff.png",
+                "type": "image",
+                "key": "volumeOff"
+            },
+            {
+                "url": "staticFiles/game/assets/menu/option/feuilleOption.png",
+                "type": "image",
+                "key": "feuilleOption"
+            },
+            {
+                "url": "staticFiles/game/assets/gameOver/gameOverLost.png",
+                "type": "image",
+                "key": "gameOverLostF"
+            },
+            {
+                "url": "staticFiles/game/assets/gameOver/gameOverLostM.png",
+                "type": "image",
+                "key": "gameOverLostM"
+            },
+            {
+                "url": "staticFiles/game/assets/gameOver/gameOverWin.png",
+                "type": "image",
+                "key": "gameOverWinF"
+            },
+            {
+                "url": "staticFiles/game/assets/gameOver/gameOverWinM.png",
+                "type": "image",
+                "key": "gameOverWinM"
+            },
+            {
+                "url": "staticFiles/game/assets/perso/idle_sprite_f.png",
+                "frameConfig": {
+                    "frameWidth": 128,
+                    "frameHeight": 128,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "idleF"
+            },
+            {
+                "url": "staticFiles/game/assets/perso/idle_sprite_g.png",
+                "frameConfig": {
+                    "frameWidth": 128,
+                    "frameHeight": 128,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "idleG"
+            },
+            {
+                "url": "staticFiles/game/assets/perso/jump_sprite_g.png",
+                "frameConfig": {
+                    "frameWidth": 128,
+                    "frameHeight": 128,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "jumpG"
+            },
+            {
+                "url": "staticFiles/game/assets/map/jt.png",
+                "type": "image",
+                "key": "jt"
+            },
+            {
+                "url": "staticFiles/game/assets/perso/jump_sprite_f.png",
+                "frameConfig": {
+                    "frameWidth": 128,
+                    "frameHeight": 128,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "jumpF"
+            },
+            {
+                "url": "staticFiles/game/assets/animations-porte.json",
+                "type": "animation",
+                "key": "animations-porte"
+            },
+            {
+                "url": "staticFiles/game/assets/porteSpriteOuvrir.png",
+                "frameConfig": {
+                    "frameWidth": 128,
+                    "frameHeight": 128,
+                    "startFrame": 0,
+                    "endFrame": 6,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "porteSpriteOuvrir"
+            },
+            {
+                "url": "staticFiles/game/assets/gameOver/leaderboardButton.png",
+                "type": "image",
+                "key": "leaderboardButton"
+            },
+            {
+                "url": "staticFiles/game/assets/menu/logo.png",
+                "type": "image",
+                "key": "logo"
+            },
+            {
+                "url": "staticFiles/game/assets/map/jolie.json",
+                "type": "tilemapTiledJSON",
+                "key": "jolie"
+            },
+            {
+                "url": "staticFiles/game/assets/map/jolie2.json",
+                "type": "tilemapTiledJSON",
+                "key": "jolie2"
+            },
+            {
+                "url": [
+                    "staticFiles/game/src/components/Physics.js",
+                    "staticFiles/game/src/components/Mouvement.js"
+                ],
+                "type": "scripts",
+                "key": "Physics"
+            },
+            {
+                "url": "staticFiles/game/assets/gameOver/playAgainButton.png",
+                "type": "image",
+                "key": "playAgainButton"
+            },
+            {
+                "url": "staticFiles/game/assets/question/qcm.png",
+                "type": "image",
+                "key": "qcm"
+            },
+            {
+                "url": "staticFiles/game/assets/menu/option/arrowDownButton.png",
+                "type": "image",
+                "key": "arrowDownButton"
+            },
+            {
+                "url": "staticFiles/game/assets/menu/option/arrowUpButton.png",
+                "type": "image",
+                "key": "arrowUpButton"
+            },
+            {
+                "url": "staticFiles/game/assets/menu/option/leaderboardButton.png",
+                "type": "image",
+                "key": "leaderboardButton"
+            },
+            {
+                "url": "staticFiles/game/assets/menu/option/background.png",
+                "type": "image",
+                "key": "backgroundOption"
+            },
+            {
+                "url": "staticFiles/game/assets/menu/option/quitter.png",
+                "type": "image",
+                "key": "quitter"
+            },
+            {
+                "url": "staticFiles/game/assets/gameOver/retryButton.png",
+                "type": "image",
+                "key": "retryButton"
+            },
+            {
+                "url": "staticFiles/game/assets/menu/start.png",
+                "type": "image",
+                "key": "start"
+            },
+            {
+                "url": "staticFiles/game/assets/question/valider.png",
+                "type": "image",
+                "key": "valider"
+            },
+            {
+                "url": "staticFiles/game/assets/tuto/toJump.png",
+                "type": "image",
+                "key": "toJump"
+            },
+            {
+                "url": "staticFiles/game/assets/tuto/toMove.png",
+                "type": "image",
+                "key": "toMove"
+            },
+            {
+                "url": "staticFiles/game/assets/tuto/toDash.png",
+                "type": "image",
+                "key": "toDash"
+            },
+            {
+                "url": "staticFiles/game/assets/tuto/cadre.png",
+                "type": "image",
+                "key": "cadre"
+            },
+            {
+                "url": "staticFiles/game/assets/perso/run_sprite_f.png",
+                "frameConfig": {
+                    "frameWidth": 128,
+                    "frameHeight": 128,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "walkF"
+            },
+            {
+                "url": "staticFiles/game/assets/perso/run_sprite_g.png",
+                "frameConfig": {
+                    "frameWidth": 128,
+                    "frameHeight": 128,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "walkG"
+            },
+            {
+                "url": "staticFiles/game/assets/menu/option/keys.png",
+                "type": "image",
+                "key": "keys"
+            },
+            {
+                "url": "staticFiles/game/assets/menu/option/keysBackground.png",
+                "type": "image",
+                "key": "keysBackground"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}

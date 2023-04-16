@@ -1,0 +1,27 @@
+{
+    "anims": [{
+        "key": "limace",
+        "type": "frame",
+        "frames": [{
+                "key": "abeille",
+                "frame": 55,
+                "duration": 0,
+                "keyframe": false
+            },
+            {
+                "key": "abeille",
+                "frame": 56,
+                "duration": 0,
+                "keyframe": false
+            }
+        ],
+        "frameRate": 2,
+        "skipMissedFrames": true,
+        "repeat": -1
+    }],
+    "globalTimeScale": 1,
+    "meta": {
+        "app": "Phaser Editor 2D v3",
+        "contentType": "Phaser v3 Animations"
+    }
+}

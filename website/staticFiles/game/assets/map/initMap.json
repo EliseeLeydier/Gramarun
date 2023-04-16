@@ -1,0 +1,102 @@
+{
+    "1": {
+        "tuile": ["jt"],
+        "nomMap": "jolie",
+        "perso": {
+            "x": 28,
+            "y": 314
+        },
+        "coordonePorte": {
+            "x": 1125,
+            "y": 353
+        },
+        "fantome": {
+            "x": 20,
+            "y": 50
+        },
+        "dicNPC": {
+            "1": {
+                "cooX": 150,
+                "cooY": 200,
+                "texture": "abeilleJaune",
+                "annimation": "VolAbeilleJaune",
+                "ecart": 20,
+                "vitesse": 0.2
+            },
+            "2": {
+                "cooX": 650,
+                "cooY": 100,
+                "texture": "abeilleJaune",
+                "annimation": "VolAbeilleJaune",
+                "ecart": 30,
+                "vitesse": 0.2
+            },
+            "3": {
+                "cooX": 850,
+                "cooY": 200,
+                "texture": "abeilleBleue",
+                "annimation": "VolAbeilleBleue",
+                "ecart": 200,
+                "vitesse": 0.3
+            },
+            "4": {
+                "cooX": 660,
+                "cooY": 362,
+                "texture": "limace",
+                "annimation": "limace",
+                "ecart": 50,
+                "vitesse": 0.3
+            }
+        }
+    },
+    "0": {
+        "tuile": ["jt"],
+        "nomMap": "jolie2",
+        "perso": {
+            "x": 24,
+            "y": 218
+        },
+        "coordonePorte": {
+            "x": 1125,
+            "y": 353
+        },
+        "fantome": {
+            "x": 24,
+            "y": 50
+        },
+        "dicNPC": {
+            "1": {
+                "cooX": 250,
+                "cooY": 100,
+                "texture": "abeilleJaune",
+                "annimation": "VolAbeilleJaune",
+                "ecart": 30,
+                "vitesse": 0.2
+            },
+            "2": {
+                "cooX": 350,
+                "cooY": 50,
+                "texture": "abeilleJaune",
+                "annimation": "VolAbeilleJaune",
+                "ecart": 30,
+                "vitesse": 0.2
+            },
+            "3": {
+                "cooX": 1020,
+                "cooY": 100,
+                "texture": "abeilleBleue",
+                "annimation": "VolAbeilleBleue",
+                "ecart": 40,
+                "vitesse": 0.2
+            },
+            "4": {
+                "cooX": 985,
+                "cooY": 410,
+                "texture": "limace",
+                "annimation": "limace",
+                "ecart": 40,
+                "vitesse": 0.3
+            }
+        }
+    }
+}

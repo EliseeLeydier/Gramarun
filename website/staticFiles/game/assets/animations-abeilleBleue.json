@@ -1,0 +1,30 @@
+{
+    "anims": [
+        {
+            "key": "VolAbeilleBleue",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "abeille",
+                    "frame": 53,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "abeille",
+                    "frame": 54,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 2,
+            "skipMissedFrames": true,
+            "repeat": -1
+        }
+    ],
+    "globalTimeScale": 1,
+    "meta": {
+        "app": "Phaser Editor 2D v3",
+        "contentType": "Phaser v3 Animations"
+    }
+}
